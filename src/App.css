@@ -1,0 +1,57 @@
+.wrap{
+  text-align: center;
+}
+
+.container{
+  display: inline-block;
+  width: 80%;
+}
+
+.book{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  margin-top: 50px;
+}
+
+.left, .right{
+  text-align: left;
+}
+
+
+.left_input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.search_area{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 10px;
+}
+
+.item_area{
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  
+}
+
+h3{
+  margin-top: 0;
+}
+
+input{
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+button{
+  background-color: skyblue;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 5px 8px;
+  font-size: 23px;
+  box-sizing: border-box;
+}
